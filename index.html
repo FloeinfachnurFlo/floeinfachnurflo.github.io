@@ -1,14 +1,10 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>My First Page</title>
-    </head>
     <body>
-    <script>
-        function(){
-            alert("Hello World");
-        }
-    </script>
-        <h1>Hello World!</h1>
-    <button onclick="myFunction()">Click me</button>
+        <h1>My First JavaScript</h1>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.
+        </button>
+        <p id="demo"></p>
     </body>
 </html>
